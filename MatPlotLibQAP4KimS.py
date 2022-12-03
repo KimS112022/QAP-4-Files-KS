@@ -14,6 +14,9 @@ for x in range(0, 12):
 
 plt.plot(x_axis, y_axis, color='purple', marker="D")
 
+Total = sum(y_axis)
+plt.legend("YEARLY TOTAL =", Total)
+
 plt.xlabel("Month")
 plt.ylabel("Monthly Claim Amount (Dollars)")
 
