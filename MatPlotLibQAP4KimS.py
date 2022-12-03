@@ -18,10 +18,10 @@ plt.plot(x_axis, y_axis, color='purple', marker="D")
 #Total = sum(y_axis)
 #plt.legend("YEARLY TOTAL =", Total)
 
-plt.xlabel("Month")
-plt.ylabel("Monthly Claim Amount (Dollars)")
+plt.xlabel("MONTH")
+plt.ylabel("CLAIM AMOUNT (Dollars)")
 
-plt.title("Revenue Report ")
+plt.title("OSIC - MONTHLY CLAIM TOTALS")
 plt.grid(True)
 
 plt.show()
